@@ -15,7 +15,7 @@ website:
         text: Introduction
       - href: about.qmd
         text: Data draft
-      - href: Data.qmd
+    
       
 
 format:
