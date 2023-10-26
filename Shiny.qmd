@@ -1,0 +1,58 @@
+---
+title: "Shiny"
+---
+<iframe height="400" width="100%" frameborder="no" src="https://charlenentx.shinyapps.io/shiny/"> </iframe>
+
+```{r}
+#| out.width: "80%"
+#| label: World Inflation
+#| warning: false
+#| eval: TRUE
+#| echo: FALSE
+library(tidyverse)
+Inflation_sg<-read_csv("Data/Inflation_SG_IMF.csv")
+library(plotly)
+SG<-plot_ly(
+  data = Inflation_sg,
+  x = ~Year, 
+  y = ~Inflation_rate,
+  type = "scatter",
+  mode = "lines+markers",
+  line = list(width = 2),
+  hoverinfo='text',
+  text = ~paste('</br> Inflation Rate: ', Inflation_rate,
+                      '</br> Year: ', Year))
+                    
+
+
+SG <- SG %>% layout(title = 'Inflation Rate of Singapore',
+         xaxis = list(title = 'Year',
+                      zeroline = TRUE),
+                      
+         yaxis = list(title = 'Inflation Rate (Annual Percentage Change)', zeroline = TRUE, range = c(-2, 9)))
+                    
+SG
+```
+```{r}
+#| out.width: "80%"
+#| label: fig-plotly
+#| warning: false
+#| echo: FALSE
+#| eval: TRUE
+
+library(tidyverse)
+library(plotly)
+
+Asean5<-read_csv("Data/Asean_5_IMF.csv")
+ int<-plot_ly(
+  data = Asean5,
+  x = ~Year, 
+  y = ~Inflation_Rate,
+  color = ~Country,
+  type = "scatter",
+  mode = "lines+markers",
+  line = list(width = 2)
+)
+
+int
+```
