@@ -39,6 +39,6 @@
     "href": "Shiny.html",
     "title": "Shiny",
     "section": "",
-    "text": "Figure 1: ?(caption)"
+    "text": "Figure 1: ?(caption)\n\n\n\n\nlibrary(tidyverse)\nweights&lt;-read.csv(\"C:/Users/Cheeting/OneDrive/Documents/NM2207/Charlenentx.github.io/Data/percentage_goods_singstat.csv\")\n\n\nlibrary(plotly)\n\ncolors &lt;- c('rgb(211,94,96)', 'rgb(128,133,133)', 'rgb(144,103,167)', 'rgb(171,104,87)', 'rgb(114,147,203)')\n\nfig &lt;- plot_ly(weights, labels = ~Goods, values = ~Weights, type = 'pie',\n        textposition = 'inside',\n        textinfo = 'percent',\n        insidetextfont = list(color = '#FFFFFF'),\n        hoverinfo = 'text',\n        text = ~paste(Goods, \":\", Weights),\n        marker = list(colors = colors,\n                      line = list(color = '#FFFFFF', width = 1)),\n                     \n        showlegend = TRUE)\nfig &lt;- fig %&gt;% layout(title = 'CPI Weighing pattern 2022',\n         xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),\n         yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))\n\nfig"
   }
 ]
