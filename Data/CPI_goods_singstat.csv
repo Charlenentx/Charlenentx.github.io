@@ -1,17 +1,109 @@
-Goods,Weights1,2019,2020,2021,2022,2021Q2,2021Q3,2021Q4,2022Q1,2022Q2,2022Q3,2022Q4,2023Q1,2021Q2
- ALL ITEMS,"10,000",100,99.8,102.1,108.4,101.6,102.2,103.8,105.5,107.6,109.7,110.7,112,113.1
-  Food,"2,110",100,101.9,103.3,108.8,103,103.5,104.1,105.5,107.8,110.2,111.7,113.9,114.9
-    Food excl Food Serving Services,682,100,102.9,104.5,110.1,104,104.7,105.6,107,109,111.4,112.9,114.9,115.6
-    Food Serving Services,"1,428",100,101.4,102.7,108.2,102.5,102.9,103.4,104.8,107.2,109.6,111.2,113.5,114.6
-  Clothing & Footwear,212,100,96.2,90.8,93.4,90.8,89.3,89.6,90.4,93.4,95.6,94.3,96.5,97.6
-  Housing & Utilities,"2,484",100,99.7,101.1,106.4,100.3,101.4,102.7,104.2,105.4,107.5,108.5,109.7,110.1
-  Household Durables & Services,493,100,100.3,101.8,103.8,101.5,102,102.3,102.9,103.6,104.2,104.6,105.6,105.5
-  Health Care,655,100,98.5,99.6,101.7,99.4,100,100,100.4,101,102.8,102.8,104.4,105.7
-  Transport,"1,707",100,99.3,108.1,125.8,107.2,107.8,113.7,119.5,125,128.6,130,130.5,133
-  Communication,411,100,100.7,100.1,98.9,99.8,99.4,99.7,98.9,98.9,98.6,99.2,100.9,101.6
-  Recreation & Culture ,789,100,98.2,99.2,103.5,98.7,99.4,100.3,99.8,102.4,105.1,106.6,106.6,109.1
-  Education ,663,100,99.4,100.6,102.7,100.3,100.7,101.4,102.1,102.5,102.9,103.5,105.1,105.3
-  Miscellaneous Goods & Services,476,100,98.8,98.3,98.7,98.4,98.1,98.2,98.6,98.5,98.6,99.3,101.1,101.8
-" All Items less Imputed Rentals on 
-  Owner-Occupied Accommodation","8,250",100,99.7,102.1,108.7,101.6,102.1,103.9,105.7,107.9,110.1,111.1,112.4,113.5
- All Items less Accommodation,"7,803",100,99.7,102.2,109,101.8,102.2,104,105.9,108.3,110.4,111.4,112.7,114
+Quarterly,C_P_I,Goods
+2021Q2,101.6, ALL ITEMS
+2021Q3,102.2, ALL ITEMS
+2021Q4,103.8, ALL ITEMS
+2022Q1,105.5, ALL ITEMS
+2022Q2,107.6, ALL ITEMS
+2022Q3,109.7, ALL ITEMS
+2022Q4,110.7, ALL ITEMS
+2023Q1,112, ALL ITEMS
+2023Q2,113.1, ALL ITEMS
+2021Q2,104,    Food excl Food Serving Services
+2021Q3,104.7,    Food excl Food Serving Services
+2021Q4,105.6,    Food excl Food Serving Services
+2022Q1,107,    Food excl Food Serving Services
+2022Q2,109,    Food excl Food Serving Services
+2022Q3,111.4,    Food excl Food Serving Services
+2022Q4,112.9,    Food excl Food Serving Services
+2023Q1,114.9,    Food excl Food Serving Services
+2023Q2,115.6,    Food excl Food Serving Services
+2021Q2,102.5,    Food Serving Services
+2021Q3,102.9,    Food Serving Services
+2021Q4,103.4,    Food Serving Services
+2022Q1,104.8,    Food Serving Services
+2022Q2,107.2,    Food Serving Services
+2022Q3,109.6,    Food Serving Services
+2022Q4,111.2,    Food Serving Services
+2023Q1,113.5,    Food Serving Services
+2023Q2,114.6,    Food Serving Services
+2021Q2,90.8,  Clothing & Footwear
+2021Q3,89.3,  Clothing & Footwear
+2021Q4,89.6,  Clothing & Footwear
+2022Q1,90.4,  Clothing & Footwear
+2022Q2,93.4,  Clothing & Footwear
+2022Q3,95.6,  Clothing & Footwear
+2022Q4,94.3,  Clothing & Footwear
+2023Q1,96.5,  Clothing & Footwear
+2023Q2,97.6,  Clothing & Footwear
+2021Q2,100.3,  Housing & Utilities
+2021Q3,101.4,  Housing & Utilities
+2021Q4,102.7,  Housing & Utilities
+2022Q1,104.2,  Housing & Utilities
+2022Q2,105.4,  Housing & Utilities
+2022Q3,107.5,  Housing & Utilities
+2022Q4,108.5,  Housing & Utilities
+2023Q1,109.7,  Housing & Utilities
+2023Q2,110.1,  Housing & Utilities
+2021Q2,101.5,  Household Durables & Services
+2021Q3,102,  Household Durables & Services
+2021Q4,102.3,  Household Durables & Services
+2022Q1,102.9,  Household Durables & Services
+2022Q2,103.6,  Household Durables & Services
+2022Q3,104.2,  Household Durables & Services
+2022Q4,104.6,  Household Durables & Services
+2023Q1,105.6,  Household Durables & Services
+2023Q2,105.5,  Household Durables & Services
+2021Q2,99.4,  Health Care
+2021Q3,100,  Health Care
+2021Q4,100,  Health Care
+2022Q1,100.4,  Health Care
+2022Q2,101,  Health Care
+2022Q3,102.8,  Health Care
+2022Q4,102.8,  Health Care
+2023Q1,104.4,  Health Care
+2023Q2,105.7,  Health Care
+2021Q2,107.2,  Transport
+2021Q3,107.8,  Transport
+2021Q4,113.7,  Transport
+2022Q1,119.5,  Transport
+2022Q2,125,  Transport
+2022Q3,128.6,  Transport
+2022Q4,130,  Transport
+2023Q1,130.5,  Transport
+2023Q2,133,  Transport
+2021Q2,99.8,  Communication
+2021Q3,99.4,  Communication
+2021Q4,99.7,  Communication
+2022Q1,98.9,  Communication
+2022Q2,98.9,  Communication
+2022Q3,98.6,  Communication
+2022Q4,99.2,  Communication
+2023Q1,100.9,  Communication
+2023Q2,101.6,  Communication
+2021Q2,98.7,  Recreation & Culture 
+2021Q3,99.4,  Recreation & Culture 
+2021Q4,100.3,  Recreation & Culture 
+2022Q1,99.8,  Recreation & Culture 
+2022Q2,102.4,  Recreation & Culture 
+2022Q3,105.1,  Recreation & Culture 
+2022Q4,106.6,  Recreation & Culture 
+2023Q1,106.6,  Recreation & Culture 
+2023Q2,109.1,  Education 
+2021Q2,100.3,  Education 
+2021Q3,100.7,  Education 
+2021Q4,101.4,  Education 
+2022Q1,102.1,  Education 
+2022Q2,102.5,  Education 
+2022Q3,102.9,  Education 
+2022Q4,103.5,  Education 
+2023Q1,105.1,  Education 
+2023Q2,105.3,  Education 
+2021Q2,98.4,  Miscellaneous Goods & Services
+2021Q3,98.1,  Miscellaneous Goods & Services
+2021Q4,98.2,  Miscellaneous Goods & Services
+2022Q1,98.6,  Miscellaneous Goods & Services
+2022Q2,98.5,  Miscellaneous Goods & Services
+2022Q3,98.6,  Miscellaneous Goods & Services
+2022Q4,99.3,  Miscellaneous Goods & Services
+2023Q1,101.1,  Miscellaneous Goods & Services
+2023Q2,101.8,  Miscellaneous Goods & Services
