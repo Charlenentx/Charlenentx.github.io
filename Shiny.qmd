@@ -1,7 +1,32 @@
 ---
-title: "Shiny"
+title: "Data Story"
+format: 
+  html:
+    page-layout: custom
+    
+server: shiny
+
 ---
-<iframe height="400" width="100%" frameborder="no" src="https://charlenentx.shinyapps.io/shiny/"> </iframe>
+<iframe height="1000" width="100%" frameborder="no" src="https://charlenentx.shinyapps.io/shiny/"> </iframe>
+
+
+
+Based on all the data given, we are able to justify that Transport and Food serving services will make the most significant impact on households during inflation as both are ranked one of the highest in terms of CPI and household expenditures.
+
+```{r}
+#| panel: sidebar
+
+     selectInput(
+          inputId = "cities", 
+          label = "Select a country", 
+          choices = unique(ASEAN5$Country), 
+          selected = "Singapore",
+          multiple = TRUE)
+      
+```
+
+
+
 
 
 
