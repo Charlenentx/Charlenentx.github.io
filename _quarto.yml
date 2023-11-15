@@ -14,9 +14,9 @@ website:
       - href: index.qmd
         text: Introduction
       - href: about.qmd
-        text: Data Story
-      - href: Shiny.qmd
         text: Draft
+      - href: Shiny.qmd
+        text: Data story
         
     
       
