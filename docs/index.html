@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to my webpage - Charlene Ng</title>
+<title>Welcome to my webpage</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,6 +33,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -87,21 +88,21 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-menu">    
         <li>
     <a class="dropdown-item" href="./index.html" rel="" target="">
- <span class="dropdown-text">Introduction</span></a>
+ <span class="dropdown-text">Data Story</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="./about.html" rel="" target="">
- <span class="dropdown-text">Data Story</span></a>
+ <span class="dropdown-text">Charlene Ng</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Introduction</span></a>
+ <span class="menu-text">Data Story</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">Data Story</span></a>
+ <span class="menu-text">Introduction</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Shiny.html" rel="" target="">
@@ -119,59 +120,19 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
-  <li><a href="#cca-and-volunteer-experiences" id="toc-cca-and-volunteer-experiences" class="nav-link" data-scroll-target="#cca-and-volunteer-experiences">CCA and Volunteer Experiences</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/photoshoot.jpg" class="about-image
-  rounded " style="width: 15em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Charlene Ng</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://github.com/Charlenentx/NM2207.git" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-
-<p>Hello everyone! I’m Charlene (a.k.a Chee Ting). Welcome to my webpage specially curated for NM2207!</p>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p><strong>National University of Singapore</strong> | Bachelor of Social Sciences in Economics, Minor in Data Analytics| Aug 2022 - Present</p>
-<p><strong>National Junior College</strong> | Jan 2020 - Dec 2021</p>
-</section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-<p><strong>Achievers Journey Tuition Centre</strong> | Admin Assistant | Aug 2022 - Present</p>
-<p><strong>Tan Tock Seng Hospital</strong> | Human Resource Assistant | May 2023 - July 2023, March 2022 - July 2022</p>
-</section>
-<section id="cca-and-volunteer-experiences" class="level2">
-<h2 data-anchor-id="cca-and-volunteer-experiences">CCA and Volunteer Experiences</h2>
-<p><strong>NUS CSC Clementi Youth Sparks</strong> | Volunteer | Aug 2023 - Present</p>
-<p><strong>NUS Arts Production Crew</strong> | Member | Aug 2023 - Present</p>
-<p><strong>NUS Economics Camp 2023</strong> | General Secretary | October 2022 - Aug 2023</p>
-<p><strong>NUS Red Cross Youth Project Rice+</strong> | District Head | October 2022 - Aug 2023</p>
+<main class="content" id="quarto-document-content">
 
 
-</section>
-</main></div>
-</div>
- <!-- /main -->
+
+<iframe height="1000" width="100%" frameborder="no" src="https://charlenentx.shinyapps.io/shiny/">
+</iframe>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -192,6 +153,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

@@ -4,7 +4,7 @@ format:
   html:
     page-layout: custom
     
-server: shiny
+
 
 ---
 <iframe height="1000" width="100%" frameborder="no" src="https://charlenentx.shinyapps.io/shiny/"> </iframe>

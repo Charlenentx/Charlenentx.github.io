@@ -9,14 +9,14 @@ website:
       - text: "Menu"
         menu:
           - href: index.qmd
-            text: Introduction
+            text: Data Story
           - about.qmd
       - href: index.qmd
-        text: Introduction
+        text: Data Story
       - href: about.qmd
-        text: Draft
+        text: Introduction
       - href: Shiny.qmd
-        text: Data story
+        text: Draft
         
     
       
