@@ -3,7 +3,7 @@ title: "Data Story"
 format: 
   html:
     page-layout: custom
-server: shiny
+
     
 
     
