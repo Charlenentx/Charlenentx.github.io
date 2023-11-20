@@ -2,7 +2,7 @@
 title: "Data Story"
 format: 
   html:
-    page-layout: full
+    page-layout: custom
 server: shiny
     
 
