@@ -12,7 +12,7 @@ Aruba,4.5
 Australia,5.8
 Austria,7.8
 Azerbaijan,10.3
-"Bahamas, The",3.9
+Bahamas,3.9
 Bahrain,1
 Bangladesh,9
 Barbados,5.2
@@ -39,17 +39,17 @@ Chile,7.8
 China,0.7
 Colombia,11.4
 Comoros,11.1
-"Congo, Dem. Rep. of the",19.1
-"Congo, Republic of ",3.5
+Democratic Republic of the Congo,19.1
+Republic of the Congo,3.5
 Costa Rica,0.7
 Croatia,8.6
 Cyprus,3.5
 Czech Republic,10.9
-Republic of Côte d'Ivoire,4.3
+Côte d'Ivoire,4.3
 Denmark,4.1
 Djibouti,1.2
 Dominica,6.2
-Dominican Republic,4.9
+Dominican,4.9
 Ecuador,2.3
 Egypt,23.5
 El Salvador,4.4
@@ -62,11 +62,12 @@ Fiji,3
 Finland,4.5
 France,5.6
 Gabon,3.8
-"Gambia, The",17
+Gambia,17
 Georgia,2.4
 Germany,6.3
 Ghana,42.2
 Greece,4.1
+Greenland,NA
 Grenada,3.6
 Guatemala,6.3
 Guinea,8.3
@@ -94,7 +95,7 @@ Korea,3.4
 Kosovo,4.7
 Kuwait,3.4
 Kyrgyzstan,11.7
-Lao P.D.R.,28.1
+Lao People's Democratic Republic,28.1
 Latvia,9.9
 Lebanon,NA
 Lesotho,6.9
@@ -129,6 +130,7 @@ Nicaragua,9.1
 Niger,4.6
 Nigeria,25.1
 Macedonia ,10
+North Korea ,NA
 Norway,5.8
 Oman,1.1
 Pakistan,29.2
@@ -170,7 +172,7 @@ Sweden,6.9
 Switzerland,2.2
 Syria,NA
 São Tomé and Príncipe,20.8
-Taiwan Province of China,2.1
+Taiwan,2.1
 Tajikistan,4.6
 Tanzania,4
 Thailand,1.5
@@ -181,7 +183,7 @@ Trinidad and Tobago,5.4
 Tunisia,9.4
 Turkmenistan,5.9
 Tuvalu,6.2
-Türkiye,51.2
+Turkey,51.2
 Uganda,5.8
 Ukraine,17.7
 United Arab Emirates,3.1
@@ -192,11 +194,11 @@ Uzbekistan,10.2
 Vanuatu,9.3
 Venezuela,360
 Vietnam,3.4
-West Bank and Gaza,3.4
+West Bank,3.4
 Yemen,14.9
 Zambia,10.6
 Zimbabwe,314.5
-,
+Kazakhstan,NA
 ,
 ,
 ,

@@ -16,8 +16,7 @@ website:
         text: Data Story
       - href: about.qmd
         text: About
-      - href: Shiny.qmd
-        text: Draft
+      
         
     
       

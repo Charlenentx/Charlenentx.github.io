@@ -1,4 +1,4 @@
-Goods,Sub_goods,Weights
+Main_Goods,Sub_goods,weights
 Food Excl Food Serving Services,Bread & Cereals,127
 Food Excl Food Serving Services,Meat,107
 Food Excl Food Serving Services,Fish & Seafood,99
@@ -16,7 +16,7 @@ Food Serving Services,Catered Food,16
 Clothing & Footwear,Clothing,153
 Clothing & Footwear,Other Articles & Related Services,10
 Clothing & Footwear,Footwear,49
-Housing & Utilities,Accommodation,"2,197"
+Housing & Utilities,Accommodation,2197
 Housing & Utilities,Utilities & Other Fuels,287
 Household Durables & Services,Household Durables,198
 Household Durables & Services,Household Services & Supplies,295
@@ -24,7 +24,7 @@ Health Care,Medicines & Health Products,120
 Health Care,Outpatient Services,302
 Health Care,Hospital Services,151
 Health Care,Health Insurance,82
-Transport,Private Transport,"1,221"
+Transport,Private Transport,1221
 Transport,Public Transport,310
 Transport,Other Transport Services,176
 Communication,Postage & Courier Services,2
