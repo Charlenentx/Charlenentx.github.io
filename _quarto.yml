@@ -10,11 +10,12 @@ website:
         menu:
           - href: index.qmd
             text: Data Story
-          - about.qmd
+          - href: about.qmd
+            text: About
       - href: index.qmd
         text: Data Story
       - href: about.qmd
-        text: Introduction
+        text: About
       - href: Shiny.qmd
         text: Draft
         
@@ -26,6 +27,8 @@ format:
     theme: minty
     css: styles.css
     toc: true
+    grid:
+        sidebar-width: 350px
 
 editor: visual
 
